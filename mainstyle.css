@@ -156,6 +156,7 @@ hr {
 .projectbg {
     background-image: url("images/TturnaDev_bg_new_blur.jpg");
     padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 /* Responsive navbar stuff ----------------------------------------------------------------- */
