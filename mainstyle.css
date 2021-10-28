@@ -269,4 +269,9 @@ hr {
     .plugbanner {
         width: 60%;
     }
+
+    .centercard {
+        width: 100%;
+        border-radius: 0;
+    }
 }
