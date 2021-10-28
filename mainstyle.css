@@ -1,5 +1,5 @@
 body {
-    background-color: #222222;
+    background-color: #131313;
     font-family: "Lucida Console", "Courier New", monospace;
     margin: 0;
 }
@@ -146,6 +146,7 @@ hr {
 
 .dyntext {
     display: inline-block;
+    padding: 1vh;
 }
 
 .dyntext a {
@@ -159,11 +160,32 @@ hr {
     padding-top: 5%;
 }
 
+.centercard {
+    width: 80%;
+    border-radius: 2vw;
+    background-color: #1b1b1b;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maincarousel {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    top: 3vh;
+    border-radius: 2vw;
+
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Responsive navbar stuff ----------------------------------------------------------------- */
 
  /* Add a black background color to the top navigation */
  .topnav {
-    background-color: #333;
+    background-color: #571c27;
     overflow: hidden;
     text-align: center;
     margin-left: auto;
@@ -188,7 +210,7 @@ hr {
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #ff9f00;
+    background-color: #ff0040;
     color: white;
   }
   
